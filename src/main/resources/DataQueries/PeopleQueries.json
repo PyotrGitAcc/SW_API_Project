@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "strings": ["Luke Skywalker", "Luke", "Люк Скайуокер"]
+  },
+  {
+    "id": 5,
+    "strings": ["Leia Organa", "Leia", "Лея Органа"]
+  },
+  {
+    "id": 14,
+    "strings": ["Han Solo", "Han", "Хан Соло"]
+  },
+  {
+    "id": 4,
+    "strings": ["Darth Vader", "Anakin Skywalker", "Anakin", "Дарт Вейдер"]
+  },
+  {
+    "id": 10,
+    "strings": ["Obi-Wan Kenobi", "Ben Kenobi", "Obi-Wan", "Оби-Ван Кеноби"]
+  },
+  {
+    "id": 20,
+    "strings": ["Yoda", "Master Yoda", "Йода"]
+  },
+  {
+    "id": 13,
+    "strings": ["Chewbacca", "Chewie", "Чубакка"]
+  },
+  {
+    "id": 3,
+    "strings": ["R2-D2", "Artoo-Detoo", "R2", "R2D2", "Арту", "Р2-Д2"]
+  },
+  {
+    "id": 2,
+    "strings": ["C-3PO", "See-Threepio", "C3PO", "Си-Трипио", "C-3PO"]
+  },
+  {
+    "id": 21,
+    "strings": ["Emperor Palpatine", "Darth Sidious", "Palpatine", "Император Палпатин"]
+  },
+  {
+    "id": 44,
+    "strings": ["Darth Maul", "Maul", "Дарт Мол"]
+  },
+  {
+    "id": 32,
+    "strings": ["Qui-Gon Jinn", "Qui-Gon", "Квай-Гон Джинн"]
+  },
+  {
+    "id": 13,
+    "strings": ["Mace Windu", "Master Windu", "Мейс Винду"]
+  },
+  {
+    "id": 35,
+    "strings": ["Padme Amidala", "Padmé", "Queen Amidala", "Падме Амидала"]
+  },
+  {
+    "id": 22,
+    "strings": ["Boba Fett", "Boba", "Боба Фетт"]
+  },
+  {
+    "id": 69,
+    "strings": ["Jango Fett", "Jango", "Джанго Фетт"]
+  },
+  {
+    "id": 67,
+    "strings": ["Count Dooku", "Darth Tyranus", "Dooku", "Граф Дуку"]
+  },
+  {
+    "id": 79,
+    "strings": ["General Grievous", "Grievous", "Генерал Гривус"]
+  },
+  {
+    "id": 25,
+    "strings": ["Lando Calrissian", "Lando", "Лэндо Калриссиан"]
+  },
+  {
+    "id": 16,
+    "strings": ["Jabba the Hutt", "Jabba", "Джабба Хатт"]
+  },
+  {
+    "id": 68,
+    "strings": ["Bail Organa", "Bail", "Бейл Органа"]
+  },
+  {
+    "id": 18,
+    "strings": ["Wedge Antilles", "Wedge", "Ведж Антеллес"]
+  },
+  {
+    "id": 28,
+    "strings": ["Mon Mothma", "Mon", "Мон Мотма"]
+  },
+  {
+    "id": 27,
+    "strings": ["Grand Moff Tarkin", "Wilhuff Tarkin", "Tarkin", "Гранд Мофф Таркин"]
+  }
+]

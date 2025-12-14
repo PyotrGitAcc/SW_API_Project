@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "strings": ["Tatooine", "Татуин"]
+  },
+  {
+    "id": 2,
+    "strings": ["Alderaan", "Алдераан"]
+  },
+  {
+    "id": 3,
+    "strings": ["Yavin IV", "Явин 4"]
+  },
+  {
+    "id": 4,
+    "strings": ["Hoth", "Хот"]
+  },
+  {
+    "id": 5,
+    "strings": ["Dagobah", "Дагоба"]
+  },
+  {
+    "id": 6,
+    "strings": ["Bespin", "Беспин"]
+  },
+  {
+    "id": 7,
+    "strings": ["Endor", "Эндор"]
+  },
+  {
+    "id": 8,
+    "strings": ["Naboo", "Набу"]
+  },
+  {
+    "id": 9,
+    "strings": ["Coruscant", "Корусант"]
+  },
+  {
+    "id": 10,
+    "strings": ["Kamino", "Камино"]
+  },
+  {
+    "id": 11,
+    "strings": ["Geonosis", "Джеонозис"]
+  },
+  {
+    "id": 12,
+    "strings": ["Utapau", "Утапау"]
+  },
+  {
+    "id": 13,
+    "strings": ["Mustafar", "Мустафар"]
+  },
+  {
+    "id": 14,
+    "strings": ["Kashyyyk", "Кашиик"]
+  },
+  {
+    "id": 15,
+    "strings": ["Polis Massa", "Полис Масса"]
+  }
+]

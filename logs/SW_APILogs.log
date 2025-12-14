@@ -1,0 +1,36 @@
+2025-12-14 21:04:08.227 [JavaFX Application Thread] INFO  org.Main.Main - Opened planet entry with id: 1
+2025-12-14 21:06:36.662 [JavaFX Application Thread] INFO  org.Main.Main - Opened person entry with id: 5
+2025-12-14 21:06:38.111 [JavaFX Application Thread] INFO  org.Main.Main - Opened planet entry with id: 3
+2025-12-14 21:07:00.395 [JavaFX Application Thread] INFO  org.Main.Main - Searching for items with searing entry: hello
+2025-12-14 21:07:31.679 [JavaFX Application Thread] INFO  org.Main.Main - Starting SW API Client
+2025-12-14 21:10:47.227 [JavaFX Application Thread] INFO  org.Main.Main - Starting SW API Client
+2025-12-14 21:10:56.727 [JavaFX Application Thread] INFO  org.Main.Main - Opened planet entry with id: 2
+2025-12-14 21:10:56.727 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Fetching planet json for ID: 2
+2025-12-14 21:12:01.530 [JavaFX Application Thread] INFO  org.Main.Main - Starting SW API Client
+2025-12-14 21:12:04.724 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Fetching planet json for ID: 2
+2025-12-14 21:12:09.662 [JavaFX Application Thread] INFO  org.Main.Main - Opened planet entry with id: 2
+2025-12-14 21:13:37.591 [JavaFX Application Thread] INFO  org.Main.Main - Starting SW API Client
+2025-12-14 21:13:42.952 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Fetching starships json for ID: 3
+2025-12-14 21:13:43.267 [JavaFX Application Thread] INFO  org.Main.Main - Opened starship entry with id: 3
+2025-12-14 21:33:32.175 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 21:33:38.353 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Fetching starships json with API for ID: 2
+2025-12-14 21:33:38.702 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 2
+2025-12-14 21:46:22.442 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 21:46:28.015 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-14 21:46:28.326 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 3
+2025-12-14 21:53:13.625 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 21:53:17.170 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
+2025-12-14 21:53:17.485 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 2
+2025-12-14 22:03:22.446 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 22:03:28.057 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 3
+2025-12-14 22:03:28.363 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 3
+2025-12-14 22:09:57.833 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 22:10:00.338 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-14 22:10:00.728 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 3
+2025-12-14 22:10:03.348 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: hello
+2025-12-14 22:26:09.546 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 22:26:15.518 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: 
+2025-12-14 22:52:49.864 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-14 22:53:16.945 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 3
+2025-12-14 22:53:17.289 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 3
+2025-12-14 22:55:55.975 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
