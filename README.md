@@ -58,3 +58,12 @@ dependencies {
     implementation(files("libs/log4j-api-2.24.1.jar"))
 }
 ```
+## Логи
+Лог работы можно посмотреть по пути — logs/SW_APILogs.log
+<img width="1279" height="462" alt="{E4744AA0-EC47-443A-AE46-4CF80221FD18}" src="https://github.com/user-attachments/assets/72570bbe-a4de-439c-8006-07f564873970" />
+
+## Документация
+Путь к документации — build/docs/javadoc/index.html
+<img width="1519" height="485" alt="{89DAD6E3-679C-4E66-A3A1-48B42E9494B8}" src="https://github.com/user-attachments/assets/b44f26d4-9dcc-44c1-8ae7-c2faf82c63cc" />
+
+
