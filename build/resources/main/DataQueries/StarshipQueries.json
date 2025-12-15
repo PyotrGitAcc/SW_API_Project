@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2,
+    "strings": ["CR90 corvette", "CR90 Корвет", "CR-90"]
+  },
+  {
+    "id": 3,
+    "strings": ["Star Destroyer", "Звездный Разрушитель", "Imperial Star Destroyer", "Имперский Звездный Разрушитель"]
+  },
+  {
+    "id": 5,
+    "strings": ["Sentinel-class landing craft", "Посадочный корабль класса 'Часовой'"]
+  },
+  {
+    "id": 9,
+    "strings": ["Death Star", "Звезда Смерти"]
+  },
+  {
+    "id": 10,
+    "strings": ["Millennium Falcon", "Тысячелетний Сокол", "Millennium Falcon"]
+  },
+  {
+    "id": 11,
+    "strings": ["Y-wing", "Y-крыл", "Y-wing starfighter"]
+  },
+  {
+    "id": 12,
+    "strings": ["X-wing", "X-крыл", "X-wing starfighter", "X-wing истребитель"]
+  },
+  {
+    "id": 13,
+    "strings": ["TIE Advanced x1", "TIE усовершенствованный x1", "TIE Advanced"]
+  },
+  {
+    "id": 15,
+    "strings": ["Executor", "Экзекутор", "Super Star Destroyer", "Супер Звездный Разрушитель"]
+  },
+  {
+    "id": 17,
+    "strings": ["Rebel transport", "Транспорт Повстанцев"]
+  },
+  {
+    "id": 21,
+    "strings": ["Slave 1", "Раб 1", "Slave I", "Firespray-31"]
+  },
+  {
+    "id": 22,
+    "strings": ["Imperial shuttle", "Имперский шаттл", "Lambda-class shuttle"]
+  },
+  {
+    "id": 23,
+    "strings": ["EF76 Nebulon-B escort frigate", "Эскортный фрегат EF76 Небулон-B"]
+  },
+  {
+    "id": 27,
+    "strings": ["Calamari Cruiser", "Крузер Каламари", "MC80 Liberty type Star Cruiser"]
+  },
+  {
+    "id": 28,
+    "strings": ["A-wing", "A-крыл", "A-wing starfighter"]
+  },
+  {
+    "id": 29,
+    "strings": ["B-wing", "B-крыл", "B-wing starfighter"]
+  },
+  {
+    "id": 31,
+    "strings": ["Republic Cruiser", "Крузер Республики", "Consular-class cruiser"]
+  },
+  {
+    "id": 32,
+    "strings": ["Droid control ship", "Корабль управления дроидами", "Lucrehulk-class battleship"]
+  },
+  {
+    "id": 39,
+    "strings": ["Naboo fighter", "Истребитель Набу", "N-1 starfighter"]
+  },
+  {
+    "id": 40,
+    "strings": ["Naboo Royal Starship", "Королевский звездолет Набу", "J-type 327 Nubian royal starship"]
+  }
+]

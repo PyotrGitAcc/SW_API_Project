@@ -1,0 +1,17 @@
+-source '25'
+-classpath 'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\build\\classes\\java\\main;C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\build\\resources\\main;C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\libs\\log4j-core-2.24.1.jar;C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\libs\\log4j-api-2.24.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.18.1\\8f9aa97e7fb44d4bea829061625472b0f6199923\\jackson-annotations-2.18.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.18.1\\9e2284c539e2dedd2aa1487c781e20a0f575d695\\jackson-core-2.18.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.18.1\\66547d0c6c2f9e022019499308f09bebbf30ab2e\\jackson-databind-2.18.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\info.debatty\\java-string-similarity\\2.0.0\\52fe33d36fcf7999dc72b3e1e573bbcab9926ea2\\java-string-similarity-2.0.0.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-fxml\\25.0.1\\76577423f762b1fbe6e7ea8082b1dcee539261d4\\javafx-fxml-25.0.1-win.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-controls\\25.0.1\\3d95acc5b3f673c52e365714cf5f5f483280ec1a\\javafx-controls-25.0.1-win.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-controls\\25.0.1\\99ee398645f38d198c25159b16e46348f96c9acf\\javafx-controls-25.0.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-graphics\\25.0.1\\55428e873de5ddbd40f3ea61f944ac84fd5d33d\\javafx-graphics-25.0.1-win.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-graphics\\25.0.1\\5b7b0ca11ba3317f037424e7ed1625371ed167b2\\javafx-graphics-25.0.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-base\\25.0.1\\c4202224a8cbd48f218d7b1fccd90c974f69e313\\javafx-base-25.0.1-win.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-base\\25.0.1\\11caeddc852134a51c6042321a53675b7fedb18a\\javafx-base-25.0.1.jar;C:\\Users\\castf\\.gradle\\caches\\modules-2\\files-2.1\\net.jcip\\jcip-annotations\\1.0\\afba4942caaeaf46aab0b976afd57cc7c181467e\\jcip-annotations-1.0.jar'
+-quiet 
+-d 'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\build\\docs\\javadoc'
+-windowtitle 'SW_API_Project 1.0-SNAPSHOT API'
+-doctitle 'SW_API_Project 1.0-SNAPSHOT API'
+-notimestamp 
+-Xdoclint:none 
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\HelperClasses\\ItemHelperEntry.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\HelperClasses\\PersonInfoDTO.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\HelperClasses\\PlanetInfoDTO.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\HelperClasses\\StarshipInfoDTO.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\Main.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\UtilityClasses\\ItemDisplayWindow.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\UtilityClasses\\JavaFXWindowsUtility.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\UtilityClasses\\SearchTools.java'
+'C:\\Users\\castf\\IdeaProjects\\SW_API_Project\\src\\main\\java\\org\\Main\\UtilityClasses\\SwapiClient.java'
