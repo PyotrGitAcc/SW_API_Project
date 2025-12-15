@@ -65,5 +65,8 @@ dependencies {
 ## Документация
 Путь к документации — build/docs/javadoc/index.html
 <img width="1519" height="485" alt="{89DAD6E3-679C-4E66-A3A1-48B42E9494B8}" src="https://github.com/user-attachments/assets/b44f26d4-9dcc-44c1-8ae7-c2faf82c63cc" />
-
+В случае если нужно собрать/пересобрать javadoc выполняется команда:
+```
+ ./gradlew javadoc
+```
 
