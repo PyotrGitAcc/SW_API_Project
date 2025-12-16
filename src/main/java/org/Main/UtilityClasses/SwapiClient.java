@@ -147,9 +147,9 @@ public class SwapiClient {
             }
 
         } catch (HttpConnectTimeoutException e) {
-            throw new SwapiException("Таймаут подключения для: " + endpoint, e);
+            throw new SwapiException("Таймаут подключения для: " + endpoint + ". Проверьте подключение к интернету", e);
         } catch (IOException e) {
-            throw new SwapiException("Ошибка ввода-вывода для: " + endpoint, e);
+            throw new SwapiException("Ошибка ввода-вывода для: " + endpoint + ". Проверьте состояние API на https://swapi.dev", e);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             throw new SwapiException("Запрос прерван для: " + endpoint, e);

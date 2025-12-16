@@ -34,3 +34,23 @@
 2025-12-14 22:53:16.945 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 3
 2025-12-14 22:53:17.289 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 3
 2025-12-14 22:55:55.975 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-15 20:00:38.410 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-15 20:00:46.688 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-15 20:00:49.532 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-15 20:00:49.945 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 3
+2025-12-16 16:54:00.381 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-16 16:54:03.248 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-16 16:54:03.403 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки планеты ID 3: Ошибка ввода-вывода для: planets/3
+2025-12-16 16:54:09.702 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных персонажа с ID: 14
+2025-12-16 16:54:09.779 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки персонажа ID 14: Ошибка ввода-вывода для: people/14
+2025-12-16 16:54:09.779 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-16 16:54:09.859 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки планеты ID 3: Ошибка ввода-вывода для: planets/3
+2025-12-16 17:03:54.253 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-16 17:03:57.307 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-16 17:03:57.456 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки планеты ID 3: Ошибка ввода-вывода для: planets/3. Проверьте состояние API
+2025-12-16 17:06:19.170 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-16 17:06:22.283 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 3
+2025-12-16 17:06:22.427 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки корабля ID 3: Ошибка ввода-вывода для: starships/3. Проверьте состояние API
+2025-12-16 17:07:20.482 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-16 17:07:23.487 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
+2025-12-16 17:07:23.641 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки планеты ID 2: Ошибка ввода-вывода для: planets/2. Проверьте состояние API на https://swapi.dev

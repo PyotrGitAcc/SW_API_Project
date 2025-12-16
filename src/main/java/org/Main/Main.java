@@ -207,6 +207,7 @@ public class Main extends Application {
                     ItemDisplayWindow.showPersonWindow(personInfo);
                 } catch (SwapiClient.SwapiException e) {
                     logger.error("Ошибка загрузки персонажа ID {}: {}", id, e.getMessage());
+                    JavaFXWindowsUtility.showErrorAlert("Ошибка загрузки персонажа ID: " + id, e.getMessage());
                 }
             }
 
@@ -218,6 +219,7 @@ public class Main extends Application {
                     ItemDisplayWindow.showPlanetWindow(planetInfo);
                 } catch (SwapiClient.SwapiException e) {
                     logger.error("Ошибка загрузки планеты ID {}: {}", id, e.getMessage());
+                    JavaFXWindowsUtility.showErrorAlert("Ошибка загрузки планеты ID: " + id, e.getMessage());
                 }
             }
 
@@ -229,6 +231,7 @@ public class Main extends Application {
                     ItemDisplayWindow.showStarshipWindow(shipInfo);
                 } catch (SwapiClient.SwapiException e) {
                     logger.error("Ошибка загрузки корабля ID {}: {}", id, e.getMessage());
+                    JavaFXWindowsUtility.showErrorAlert("Ошибка загрузки корабля ID: " + id, e.getMessage());
                 }
             }
         } catch (Exception e) {
