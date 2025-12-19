@@ -54,3 +54,56 @@
 2025-12-16 17:07:20.482 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
 2025-12-16 17:07:23.487 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
 2025-12-16 17:07:23.641 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки планеты ID 2: Ошибка ввода-вывода для: planets/2. Проверьте состояние API на https://swapi.dev
+2025-12-17 20:14:08.188 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-17 22:07:38.321 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-17 22:07:47.280 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 14
+2025-12-17 22:07:47.521 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки планеты ID 14: Ошибка ввода-вывода для: planets/14. Проверьте состояние API на https://swapi.dev
+2025-12-17 22:41:48.703 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-17 22:41:59.097 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: йода
+2025-12-17 22:42:08.563 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: jabba
+2025-12-17 22:42:43.806 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: джабба
+2025-12-17 22:42:47.822 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: джабба
+2025-12-17 22:42:53.630 [JavaFX Application Thread] INFO  org.Main.Main - Поиск элементов по запросу: джабба хатт
+2025-12-17 22:45:28.277 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 12
+2025-12-17 22:45:28.450 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки корабля ID 12: Ошибка ввода-вывода для: starships/12. Проверьте состояние API на https://swapi.dev
+2025-12-17 22:45:33.275 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 12
+2025-12-17 22:45:33.379 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка загрузки корабля ID 12: Ошибка ввода-вывода для: starships/12. Проверьте состояние API на https://swapi.dev
+2025-12-17 22:48:32.465 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-17 22:48:34.032 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка при загрузке всех элементов: Unexpected character ('{' (code 123)): was expecting comma to separate Array entries
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 63, column: 3]
+2025-12-17 22:48:55.217 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-17 22:48:56.719 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка при загрузке всех элементов: Ошибка обработки элемента с id: 93525853
+2025-12-17 22:49:05.382 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка при загрузке всех элементов: Ошибка обработки элемента с id: 93525853
+2025-12-17 22:50:43.564 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-17 22:50:46.924 [JavaFX Application Thread] ERROR org.Main.Main - Ошибка при загрузке всех элементов: Unexpected character ('{' (code 123)): was expecting comma to separate Array entries
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 63, column: 3]
+2025-12-19 17:24:14.385 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-19 17:24:17.283 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
+2025-12-19 17:24:18.060 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 2
+2025-12-19 17:24:26.366 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
+2025-12-19 17:24:26.700 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 2
+2025-12-19 17:24:27.983 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 2
+2025-12-19 17:24:28.214 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 2
+2025-12-19 17:25:32.648 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-19 17:25:35.583 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
+2025-12-19 17:25:36.315 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 2
+2025-12-19 17:25:42.077 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных персонажа с ID: 5
+2025-12-19 17:25:42.683 [JavaFX Application Thread] INFO  org.Main.Main - Открыт персонаж с id: 5
+2025-12-19 17:25:43.529 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 2
+2025-12-19 17:25:43.757 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 2
+2025-12-19 17:28:14.230 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-19 17:28:18.164 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных персонажа с ID: 1
+2025-12-19 17:28:18.919 [JavaFX Application Thread] INFO  org.Main.Main - Открыт персонаж с id: 1
+2025-12-19 17:32:57.911 [JavaFX Application Thread] INFO  org.Main.Main - Запуск SW API Client
+2025-12-19 17:33:00.636 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-19 17:33:01.364 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 3
+2025-12-19 17:33:04.538 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-19 17:33:04.882 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 3
+2025-12-19 17:33:12.032 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 2
+2025-12-19 17:33:12.269 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 2
+2025-12-19 17:33:16.747 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных персонажа с ID: 5
+2025-12-19 17:33:17.386 [JavaFX Application Thread] INFO  org.Main.Main - Открыт персонаж с id: 5
+2025-12-19 17:33:22.170 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных планеты с ID: 3
+2025-12-19 17:33:22.406 [JavaFX Application Thread] INFO  org.Main.Main - Открыта планета с id: 3
+2025-12-19 17:33:23.461 [JavaFX Application Thread] INFO  org.Main.UtilityClasses.SwapiClient - Получение данных корабля с ID: 2
+2025-12-19 17:33:24.295 [JavaFX Application Thread] INFO  org.Main.Main - Открыт корабль с id: 2

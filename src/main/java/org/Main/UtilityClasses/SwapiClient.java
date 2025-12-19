@@ -9,6 +9,7 @@ import java.time.Duration;
 import java.io.IOException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.JsonNode;
 
 import org.Main.HelperClasses.*;
 import org.apache.logging.log4j.LogManager;
@@ -30,7 +31,7 @@ public class SwapiClient {
     private final HttpClient httpClient;
 
     /** Базовый URL SWAPI */
-    private static final String BASE_URL = "https://swapi.dev/api/";
+    private static final String BASE_URL = "https://swapi.tech/api/";
 
     /**
      * Базовое исключение для ошибок SWAPI.
@@ -74,7 +75,15 @@ public class SwapiClient {
         logger.info("Получение данных персонажа с ID: {}", id);
         String json = fetchJson("people/" + id);
         try {
-            return objectMapper.readValue(json, PersonInfoDTO.class);
+            // Парсим JSON и извлекаем properties из result
+            JsonNode rootNode = objectMapper.readTree(json);
+            JsonNode resultNode = rootNode.get("result");
+            if (resultNode != null && resultNode.has("properties")) {
+                JsonNode propertiesNode = resultNode.get("properties");
+                return objectMapper.treeToValue(propertiesNode, PersonInfoDTO.class);
+            } else {
+                throw new SwapiException("Неверный формат ответа от API для персонажа с ID: " + id);
+            }
         } catch (JsonProcessingException e) {
             throw new SwapiException("Ошибка парсинга данных персонажа с ID: " + id, e);
         }
@@ -91,7 +100,15 @@ public class SwapiClient {
         logger.info("Получение данных планеты с ID: {}", id);
         String json = fetchJson("planets/" + id);
         try {
-            return objectMapper.readValue(json, PlanetInfoDTO.class);
+            // Парсим JSON и извлекаем properties из result
+            JsonNode rootNode = objectMapper.readTree(json);
+            JsonNode resultNode = rootNode.get("result");
+            if (resultNode != null && resultNode.has("properties")) {
+                JsonNode propertiesNode = resultNode.get("properties");
+                return objectMapper.treeToValue(propertiesNode, PlanetInfoDTO.class);
+            } else {
+                throw new SwapiException("Неверный формат ответа от API для планеты с ID: " + id);
+            }
         } catch (JsonProcessingException e) {
             throw new SwapiException("Ошибка парсинга данных планеты с ID: " + id, e);
         }
@@ -108,7 +125,15 @@ public class SwapiClient {
         logger.info("Получение данных корабля с ID: {}", id);
         String json = fetchJson("starships/" + id);
         try {
-            return objectMapper.readValue(json, StarshipInfoDTO.class);
+            // Парсим JSON и извлекаем properties из result
+            JsonNode rootNode = objectMapper.readTree(json);
+            JsonNode resultNode = rootNode.get("result");
+            if (resultNode != null && resultNode.has("properties")) {
+                JsonNode propertiesNode = resultNode.get("properties");
+                return objectMapper.treeToValue(propertiesNode, StarshipInfoDTO.class);
+            } else {
+                throw new SwapiException("Неверный формат ответа от API для корабля с ID: " + id);
+            }
         } catch (JsonProcessingException e) {
             throw new SwapiException("Ошибка парсинга данных корабля с ID: " + id, e);
         }
@@ -135,7 +160,16 @@ public class SwapiClient {
             int statusCode = response.statusCode();
 
             if (statusCode == 200) {
-                return response.body();
+                // Проверяем, что ответ содержит "ok"
+                String body = response.body();
+                if (body.contains("\"message\":\"ok\"")) {
+                    return body;
+                } else {
+                    // Если API вернул ошибку в теле ответа
+                    JsonNode rootNode = objectMapper.readTree(body);
+                    String message = rootNode.has("message") ? rootNode.get("message").asText() : "Неизвестная ошибка API";
+                    throw new SwapiException("Ошибка API: " + message);
+                }
             } else if (statusCode == 404) {
                 throw new SwapiNotFoundException("Ресурс не найден: " + endpoint);
             } else if (statusCode >= 500) {
@@ -149,7 +183,7 @@ public class SwapiClient {
         } catch (HttpConnectTimeoutException e) {
             throw new SwapiException("Таймаут подключения для: " + endpoint + ". Проверьте подключение к интернету", e);
         } catch (IOException e) {
-            throw new SwapiException("Ошибка ввода-вывода для: " + endpoint + ". Проверьте состояние API на https://swapi.dev", e);
+            throw new SwapiException("Ошибка ввода-вывода для: " + endpoint + ". Проверьте состояние API на https://swapi.tech", e);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             throw new SwapiException("Запрос прерван для: " + endpoint, e);
